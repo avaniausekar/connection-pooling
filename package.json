@@ -1,0 +1,32 @@
+{
+  "name": "connection-pooling",
+  "version": "1.0.0",
+  "description": "A prototype implementation of connection pooling to improve performance and scalability",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avaniausekar/connection-pooling.git"
+  },
+  "keywords": [
+    "connection-pools",
+    "mysql",
+    "node",
+    "typescript"
+  ],
+  "author": "Avani Ausekar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avaniausekar/connection-pooling/issues"
+  },
+  "homepage": "https://github.com/avaniausekar/connection-pooling#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1"
+  }
+}
