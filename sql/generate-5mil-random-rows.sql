@@ -1,8 +1,6 @@
-CREATE DATABASE metrics2;
+CREATE DATABASE metrics;
 
-SET default_storage_engine = InnoDB;
-
-USE metrics2;
+USE metrics;
 -- create table digits
 CREATE TABLE digits ( id int primary key );
 INSERT into digits values (0), (1), (2), (3), (4), (5), (6), (7), (8), (9);
